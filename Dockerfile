@@ -16,5 +16,9 @@ RUN npm install react-scripts@3.4.0 -g --silent
 # add app
 COPY . ./
 
+# set up non-root user (recommended for Heroku)
+RUN adduser -D myuser
+USER myuser
+
 # start App
 CMD ["npm", "start"]
