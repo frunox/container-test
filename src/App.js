@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src='https://i.ibb.co/bW5z1PX/Vermilion-Sunset-1-crop.jpg' className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to change.
+          Edit the <code>src/App.js</code> file and save to change.
         </p>
 
       </header>
